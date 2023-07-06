@@ -1,3 +1,5 @@
-h1 {
-    color: red;
+.container{
+    display:grid;
+    justify-content: center;
+    align-items: center;
 }

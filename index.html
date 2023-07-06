@@ -1,11 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>hello world</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prime Numbers</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <input
+        type="number"
+        name="lowerbound"
+        id="lowerbound"
+        placeholder="Enter the lowerbound"
+      /><br />
+      <input
+        type="number"
+        name="upperbound"
+        id="upperbound"
+        placeholder="Enter the upperbound"
+      /><br />
+      <br /><button onclick="getResult()">Find</button><br />
+      <textarea name="result" id="result" cols="30" rows="10"></textarea>
+      <script src="index.js"></script>
+    </div>
+  </body>
 </html>
